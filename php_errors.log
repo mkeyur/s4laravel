@@ -1,0 +1,18 @@
+[15-Mar-2017 07:10:09 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/ubuntu/workspace/laravel/vendor/composer/../../app/Helpers.php): failed to open stream: No such file or directory' in /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/u...', '/home/ubuntu/wo...', 66, Array)
+#1 /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php(66): composerRequireea782c00d49b98035b8a356ed6e6a249()
+#2 /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php(56): composerRequireea782c00d49b98035b8a356ed6e6a249('be2dabd89e6571c...', '/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/laravel/vendor/autoload.php(7): ComposerAutoloaderInitea782c00d49b98035b8a356ed6e6a249::getLoader()
+#4 /home/ubuntu/workspace/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(30): require_once('/home/ubuntu/wo...')
+#5 phar:///usr/bin/composer/src/Comp in /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php on line 66
+[15-Mar-2017 07:10:09 UTC] PHP Fatal error:  composerRequireea782c00d49b98035b8a356ed6e6a249(): Failed opening required '/home/ubuntu/workspace/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php on line 66
+[15-Mar-2017 07:12:43 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/ubuntu/workspace/laravel/vendor/composer/../../app/Helpers.php): failed to open stream: No such file or directory' in /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home/u...', '/home/ubuntu/wo...', 66, Array)
+#1 /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php(66): composerRequireea782c00d49b98035b8a356ed6e6a249()
+#2 /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php(56): composerRequireea782c00d49b98035b8a356ed6e6a249('be2dabd89e6571c...', '/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/laravel/vendor/autoload.php(7): ComposerAutoloaderInitea782c00d49b98035b8a356ed6e6a249::getLoader()
+#4 /home/ubuntu/workspace/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(30): require_once('/home/ubuntu/wo...')
+#5 phar:///usr/bin/composer/src/Comp in /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php on line 66
+[15-Mar-2017 07:12:43 UTC] PHP Fatal error:  composerRequireea782c00d49b98035b8a356ed6e6a249(): Failed opening required '/home/ubuntu/workspace/laravel/vendor/composer/../../app/Helpers.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/laravel/vendor/composer/autoload_real.php on line 66
